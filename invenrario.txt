@@ -1,0 +1,18 @@
+carrito de ventas
+-codigo
+-foto
+-descripcion
+
+
+Solicitude de refacciones
+-Agregar ticket a la orden de trabajo
+
+Alta Clientes
+-datos telefono, nombre, rfc, dir. fiscal, correo
+
+Ordenes (taller mecanico)
+numero orden
+nombre cliente
+desc trabajo
+numero de piezas a trabajar
+asignar wo
