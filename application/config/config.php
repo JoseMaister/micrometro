@@ -26,11 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 select b.name as auto, b.year, m.name as modelo,e.name as motor,cp.name as category,tp.name as type_parts, p.manufacturer, p.details, p.part_number from products p JOIN type_part_products tpp on tpp.product_id=p.id JOIN type_parts tp ON tp.id=tpp.type_part_id join category_parts cp on tp.category_id=cp.id JOIN engines e on e.id=cp.engine_id JOIN models m on m.id=e.model_id JOIN brands b on b.id = m.brand_id
 */
 
-//$config['base_url'] = 'http://10/200/200.1/micrometro';
-//$config['base_url'] = 'http://192.168.110.15/micrometro';
-//$config['base_url'] = 'http://localhost/micrometro';
-$config['base_url'] = 'http://micrometro.ddns.net/micrometro';
-//$config['base_url'] = 'https://micrometro123.loca.lt/micrometro';
+$config['base_url'] = 'http://localhost/micrometro';
 
 /*
 |--------------------------------------------------------------------------

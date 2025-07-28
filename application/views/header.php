@@ -47,7 +47,7 @@ else
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>EL MICROMETRO</title>
+        <title>.</title>
 
         <!-- Bootstrap -->
         <link href=<?= base_url("template/vendors/bootstrap/dist/css/bootstrap.css"); ?> rel="stylesheet">
@@ -121,7 +121,7 @@ else
                 <div class="col-md-3 left_col">
                     <div class="left_col scroll-view">
                         <div style="border: 0; ">
-                            <a href=<?= base_url('inicio'); ?> class="site_title"><img style="height: 60%;" src=<?= base_url('template/images/logoshort.png') ?>> <img style="height: 80%;" src=<?= base_url('template/images/logo_letras.png') ?>></a>
+                            <a href=<?= base_url('inicio'); ?> class="site_title"><img style="height: 60%;" src=<?= base_url('template/images/logoshort.png') ?>> <img style="height: 80%;" src=<?= base_url('template/images/logo_large.png') ?>></a>
                         </div>
 
                         <div class="clearfix"></div>
